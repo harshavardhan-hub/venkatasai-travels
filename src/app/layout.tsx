@@ -26,14 +26,37 @@ export const metadata: Metadata = {
   description:
     "Best bus rental in Anantapur, Andhra Pradesh. Mini bus, tempo traveller, medium bus & luxury coach for pilgrimage, corporate & family tours. Call Now: 9440440969 / 9440737138",
   keywords: [
-    "bus booking Anantapur",
-    "travels in Anantapur",
-    "mini bus hire Anantapur",
-    "bus rental Anantapur AP",
-    "tempo traveller Anantapur",
+    // Brand keywords
     "Venkata Sai Tours and Travels",
+    "Venkata Sai Travels",
+    "Venkata Sai",
+    // Core service keywords
+    "bus booking Anantapur",
+    "book bus in Anantapur",
+    "bus hire Anantapur",
+    "buses in Anantapur",
+    "bus rental Anantapur AP",
+    // Travel company
+    "travels in Anantapur",
+    "best travels in Anantapur",
+    "travel agency Anantapur",
+    "tour operator Anantapur",
+    // Vehicle types
+    "mini bus hire Anantapur",
+    "mini buses in Anantapur",
+    "tempo traveller Anantapur",
+    "tourist buses in Anantapur",
+    "luxury bus hire Anantapur",
+    "big bus hire Anantapur",
+    "medium bus rental Anantapur",
+    // Tour keywords
     "Anantapur tours",
+    "tour packages from Anantapur",
+    "Tirupati package from Anantapur",
+    "pilgrimage tours Anantapur",
+    // Broader AP keywords
     "bus hire Andhra Pradesh",
+    "travels in AP",
   ],
   authors: [{ name: "Venkata Sai Tours & Travels" }],
   creator: "Venkata Sai Tours & Travels",
