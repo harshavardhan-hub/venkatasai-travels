@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   description:
     'Hire 14-seat or 18-seat mini bus / tempo traveller in Anantapur AP. Best rates for family trips, picnics & local travel. Call Now: 9440440969 / 9440737138. Instant Booking!',
   alternates: {
-    canonical: 'https://venkatasaitours.com/mini-bus',
+    canonical: 'https://venkatasaitravels.com/mini-bus',
   },
 }
 

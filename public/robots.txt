@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://venkatasaitours.com
+Host: https://venkatasaitravels.com
 
 # Sitemaps
-Sitemap: https://venkatasaitours.com/sitemap.xml
+Sitemap: https://venkatasaitravels.com/sitemap.xml

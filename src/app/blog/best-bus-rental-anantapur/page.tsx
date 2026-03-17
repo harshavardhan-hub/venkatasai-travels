@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   description:
     'Complete guide to bus rental in Anantapur AP. Compare mini bus, tempo traveller, medium bus & luxury coach hire options, pricing, and tips. Call Venkata Sai Tours: 9440440969.',
   alternates: {
-    canonical: 'https://venkatasaitours.com/blog/best-bus-rental-anantapur',
+    canonical: 'https://venkatasaitravels.com/blog/best-bus-rental-anantapur',
   },
 }
 
@@ -26,11 +26,11 @@ export default function BestBusRentalBlog() {
     "publisher": {
       "@type": "Organization",
       "name": "Venkata Sai Tours & Travels",
-      "logo": { "@type": "ImageObject", "url": "https://venkatasaitours.com/logo.png" }
+      "logo": { "@type": "ImageObject", "url": "https://venkatasaitravels.com/logo.png" }
     },
     "datePublished": "2024-03-01",
     "dateModified": "2024-03-17",
-    "mainEntityOfPage": "https://venkatasaitours.com/blog/best-bus-rental-anantapur"
+    "mainEntityOfPage": "https://venkatasaitravels.com/blog/best-bus-rental-anantapur"
   }
 
   const faqJsonLd = {

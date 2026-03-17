@@ -18,7 +18,7 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://venkatasaitours.com"),
+  metadataBase: new URL("https://venkatasaitravels.com"),
   title: {
     default: "Venkata Sai Tours & Travels | Bus Booking in Anantapur AP",
     template: "%s | Venkata Sai Tours & Travels",
@@ -45,7 +45,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_IN",
-    url: "https://venkatasaitours.com",
+    url: "https://venkatasaitravels.com",
     siteName: "Venkata Sai Tours & Travels",
     title: "Venkata Sai Tours & Travels | Bus Booking in Anantapur AP",
     description:
@@ -79,14 +79,14 @@ export const metadata: Metadata = {
 const globalJsonLd = {
   "@context": "https://schema.org",
   "@type": ["TravelAgency", "LocalBusiness"],
-  "@id": "https://venkatasaitours.com/#business",
+  "@id": "https://venkatasaitravels.com/#business",
   name: "Venkata Sai Tours & Travels",
   alternateName: "Venkata Sai Tours",
-  image: "https://venkatasaitours.com/logo.png",
-  logo: "https://venkatasaitours.com/logo.png",
+  image: "https://venkatasaitravels.com/logo.png",
+  logo: "https://venkatasaitravels.com/logo.png",
   description:
     "Best bus rental and tour operator in Anantapur, Andhra Pradesh. Offering mini bus hire, tempo traveller, medium bus, and luxury coach for pilgrimages, corporate tours, family trips, and school excursions.",
-  url: "https://venkatasaitours.com",
+  url: "https://venkatasaitravels.com",
   telephone: "+919440440969",
   contactPoint: [
     {

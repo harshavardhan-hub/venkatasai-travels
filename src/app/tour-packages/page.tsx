@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   description:
     'Affordable pilgrimage, family, corporate & school tour packages from Anantapur AP. Tirupati, Shirdi, Varanasi & more. Tirupati 2-day package from ₹999/head. Call Now: 9440440969.',
   alternates: {
-    canonical: 'https://venkatasaitours.com/tour-packages',
+    canonical: 'https://venkatasaitravels.com/tour-packages',
   },
 }
 

@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   description:
     'Book a 30-seat medium bus in Anantapur for corporate events, school trips & group travel across Andhra Pradesh. Best rates. Call Now: 9440737138 / 9440440969.',
   alternates: {
-    canonical: 'https://venkatasaitours.com/medium-bus',
+    canonical: 'https://venkatasaitravels.com/medium-bus',
   },
 }
 

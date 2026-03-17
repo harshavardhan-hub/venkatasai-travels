@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   description:
     'Best bus rental in Anantapur AP. Mini bus, tempo traveller, medium bus & luxury coach. Pilgrimage, corporate & family tours. Call Now: 9440440969 / 9440737138. Book Today!',
   alternates: {
-    canonical: 'https://venkatasaitours.com/',
+    canonical: 'https://venkatasaitravels.com/',
   },
 }
 
@@ -22,11 +22,11 @@ export default function Home() {
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
-    "@id": "https://venkatasaitours.com/#business",
+    "@id": "https://venkatasaitravels.com/#business",
     "name": "Venkata Sai Tours & Travels",
-    "image": "https://venkatasaitours.com/logo.png",
+    "image": "https://venkatasaitravels.com/logo.png",
     "description": "Best bus booking and rental service in Anantapur, Andhra Pradesh. Mini bus, tempo traveller, medium bus, and luxury coach for pilgrimage, corporate & family tours.",
-    "url": "https://venkatasaitours.com",
+    "url": "https://venkatasaitravels.com",
     "telephone": "+919440440969",
     "address": {
       "@type": "PostalAddress",
