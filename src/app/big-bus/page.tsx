@@ -11,9 +11,12 @@ import { StructuredData } from '@/components/structured-data'
 export const metadata: Metadata = {
   title: '40 & 50 Seat Luxury Bus Hire Anantapur | Big Bus Rental AP',
   description:
-    'Hire 40-seat semi-deluxe or 50-seat push-back luxury bus in Anantapur AP. 4K audio-video coach available. Best bus rental Anantapur. Call Now: 9440440969 / 9440737138.',
+    'Hire 40-seat semi-deluxe or 50-seat push-back luxury bus in Anantapur AP. 4K audio-video coach available. Call Now: 9440440969 / 9440737138.',
   alternates: {
     canonical: 'https://venkatasaitravels.com/big-bus',
+  },
+  openGraph: {
+    images: [{ url: '/og/og-big-bus.png', width: 1200, height: 630, alt: '40 & 50-Seat Luxury Bus Hire in Anantapur AP' }],
   },
 }
 
@@ -204,10 +207,10 @@ export default function BigBusPage() {
             </AnimatedSection>
 
             <AnimatedSection direction="right">
-              <h3 className="text-gold text-sm font-bold tracking-widest uppercase mb-4 flex items-center gap-4">
+              <p className="text-gold text-sm font-bold tracking-widest uppercase mb-4 flex items-center gap-4">
                 <span className="w-8 h-px bg-gold/50" />
                 Capacity & Scale
-              </h3>
+              </p>
               <h3 className="text-4xl md:text-5xl font-serif font-bold mb-8">Best Suited For</h3>
               <p className="text-xl text-deep-navy/70 mb-10 leading-relaxed">
                 When you have a massive group in Anantapur, logistics matter. Our big bus fleet ensures everyone travels together, arrives on time, and enjoys the ride.

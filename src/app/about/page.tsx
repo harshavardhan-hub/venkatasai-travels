@@ -10,9 +10,12 @@ import { StructuredData } from '@/components/structured-data'
 export const metadata: Metadata = {
   title: 'About Us | Venkata Sai Tours & Travels Anantapur AP',
   description:
-    'Learn about Venkata Sai Tours & Travels — Anantapur\'s most trusted bus company with 24 years of service. Bus rental, mini bus, tempo traveller & luxury coaches in Anantapur AP. Call: 9440440969.',
+    'Learn about Venkata Sai Tours & Travels — Anantapur\'s most trusted bus company with 24 years of service. Bus rental, mini bus, tempo traveller & luxury coaches in Anantapur AP. Call: 9440440969 / 9440737138.',
   alternates: {
     canonical: 'https://venkatasaitravels.com/about',
+  },
+  openGraph: {
+    images: [{ url: '/og/og-about.png', width: 1200, height: 630, alt: 'About Venkata Sai Tours & Travels — 24 Years in Anantapur AP' }],
   },
 }
 
@@ -97,11 +100,11 @@ export default function AboutPage() {
         
         <div className="container mx-auto px-4 md:px-6 relative z-10">
           <AnimatedSection className="text-center mb-16">
-            <h2 className="text-gold text-sm font-bold tracking-widest uppercase mb-4 flex items-center justify-center gap-4">
+            <p className="text-gold text-sm font-bold tracking-widest uppercase mb-4 flex items-center justify-center gap-4">
               <span className="w-12 h-px bg-gold/50" />
               By The Numbers
               <span className="w-12 h-px bg-gold/50" />
-            </h2>
+            </p>
             <h2 className="text-4xl md:text-5xl font-serif font-bold">Our Milestones in Anantapur</h2>
           </AnimatedSection>
 
@@ -130,11 +133,11 @@ export default function AboutPage() {
       <section className="py-24 bg-cream text-deep-navy">
         <div className="container mx-auto px-4 md:px-6">
            <AnimatedSection className="text-center mb-16">
-            <h2 className="text-gold text-sm font-bold tracking-widest uppercase mb-4 flex items-center justify-center gap-4">
+            <p className="text-gold text-sm font-bold tracking-widest uppercase mb-4 flex items-center justify-center gap-4">
               <span className="w-12 h-px bg-gold/50" />
               Core Principles
               <span className="w-12 h-px bg-gold/50" />
-            </h2>
+            </p>
             <h2 className="text-4xl md:text-5xl font-serif font-bold">Why Anantapur Trusts Us</h2>
             <p className="mt-4 text-deep-navy/70 text-lg max-w-2xl mx-auto">
               As the leading <strong>travels in Anantapur AP</strong>, our values drive everything we do — from the first call to the final destination.
@@ -166,11 +169,11 @@ export default function AboutPage() {
       <section className="py-24 bg-white text-deep-navy relative overflow-hidden">
         <div className="container mx-auto px-4 md:px-6">
            <AnimatedSection className="text-center mb-16 max-w-3xl mx-auto">
-            <h2 className="text-gold text-sm font-bold tracking-widest uppercase mb-4 flex items-center justify-center gap-4">
+            <p className="text-gold text-sm font-bold tracking-widest uppercase mb-4 flex items-center justify-center gap-4">
               <span className="w-12 h-px bg-gold/50" />
               The People Behind The Wheel
               <span className="w-12 h-px bg-gold/50" />
-            </h2>
+            </p>
             <h2 className="text-4xl md:text-5xl font-serif font-bold mb-6">Our Leadership</h2>
             <p className="text-lg text-deep-navy/70">Dedicated partners ensuring every journey from Anantapur is nothing short of excellent — anytime, any day.</p>
           </AnimatedSection>

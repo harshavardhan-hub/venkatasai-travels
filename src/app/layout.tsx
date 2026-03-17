@@ -49,13 +49,13 @@ export const metadata: Metadata = {
     siteName: "Venkata Sai Tours & Travels",
     title: "Venkata Sai Tours & Travels | Bus Booking in Anantapur AP",
     description:
-      "Best bus rental in Anantapur AP. Mini bus, tempo traveller, medium bus & luxury coach for pilgrimage, corporate & family tours. Call Now: 9440440969",
+      "Best bus rental in Anantapur AP. Mini bus, tempo traveller, medium bus & luxury coach for pilgrimage, corporate & family tours. Call Now: 9440440969 / 9440737138",
     images: [
       {
-        url: "/logo.png",
+        url: "/og/og-home.png",
         width: 1200,
         height: 630,
-        alt: "Venkata Sai Tours & Travels - Bus Booking Anantapur",
+        alt: "Venkata Sai Tours & Travels - Bus Booking Anantapur AP",
       },
     ],
   },
@@ -63,17 +63,20 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Venkata Sai Tours & Travels | Bus Booking Anantapur AP",
     description:
-      "Best bus rental in Anantapur AP. Mini bus, tempo traveller, luxury coach. Call Now: 9440440969 / 9440737138",
-    images: ["/logo.png"],
+      "Best bus rental in Anantapur AP. Mini bus, tempo traveller & luxury coach. Y.N. Prasad: 9440440969 | Y.N. Kumar: 9440737138",
+    images: ["/og/og-home.png"],
   },
   icons: {
-    icon: [{ url: "/favicon.png", type: "image/png" }],
+    icon: [
+      { url: "/favicon.png", type: "image/png", sizes: "64x64" },
+      { url: "/favicon.png", type: "image/png", sizes: "32x32" },
+    ],
     shortcut: "/favicon.png",
-    apple: "/favicon.png",
+    apple: { url: "/favicon.png", sizes: "180x180", type: "image/png" },
   },
-  verification: {
-    google: "add-your-google-search-console-code-here",
-  },
+  // TODO: Replace with your actual Google Search Console verification code
+  // Get it from: https://search.google.com/search-console → Settings → Ownership verification → HTML tag
+  // verification: { google: "YOUR_ACTUAL_CODE_HERE" },
 };
 
 const globalJsonLd = {

@@ -11,9 +11,12 @@ import { StructuredData } from '@/components/structured-data'
 export const metadata: Metadata = {
   title: '30-Seat Medium Bus Hire Anantapur AP — Venkata Sai Tours',
   description:
-    'Book a 30-seat medium bus in Anantapur for corporate events, school trips & group travel across Andhra Pradesh. Best rates. Call Now: 9440737138 / 9440440969.',
+    'Book a 30-seat medium bus in Anantapur for corporate events, school trips & group travel across Andhra Pradesh. Best rates. Call Now: 9440440969 / 9440737138.',
   alternates: {
     canonical: 'https://venkatasaitravels.com/medium-bus',
+  },
+  openGraph: {
+    images: [{ url: '/og/og-medium-bus.png', width: 1200, height: 630, alt: '30-Seat Medium Bus Hire in Anantapur AP' }],
   },
 }
 
@@ -184,10 +187,10 @@ export default function MediumBusPage() {
         <div className="container mx-auto px-4 md:px-6 relative z-10">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 md:gap-24">
             <AnimatedSection direction="left">
-              <h3 className="text-gold text-sm font-bold tracking-widest uppercase mb-4 flex items-center gap-4">
+              <p className="text-gold text-sm font-bold tracking-widest uppercase mb-4 flex items-center gap-4">
                 <span className="w-8 h-px bg-gold/50" />
                 Tailored Experiences
-              </h3>
+              </p>
               <h3 className="text-4xl md:text-5xl font-serif font-bold mb-10">Best Suited For</h3>
               <div className="space-y-6">
                 {[

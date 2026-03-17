@@ -16,40 +16,13 @@ export const metadata: Metadata = {
   alternates: {
     canonical: 'https://venkatasaitravels.com/',
   },
+  openGraph: {
+    images: [{ url: '/og/og-home.png', width: 1200, height: 630, alt: 'Venkata Sai Tours & Travels — Bus Booking Anantapur AP' }],
+  },
 }
 
 export default function Home() {
-  const jsonLd = {
-    "@context": "https://schema.org",
-    "@type": "LocalBusiness",
-    "@id": "https://venkatasaitravels.com/#business",
-    "name": "Venkata Sai Tours & Travels",
-    "image": "https://venkatasaitravels.com/logo.png",
-    "description": "Best bus booking and rental service in Anantapur, Andhra Pradesh. Mini bus, tempo traveller, medium bus, and luxury coach for pilgrimage, corporate & family tours.",
-    "url": "https://venkatasaitravels.com",
-    "telephone": "+919440440969",
-    "address": {
-      "@type": "PostalAddress",
-      "streetAddress": "ING Vysya Bank Lane, Kamala Nagar",
-      "addressLocality": "Anantapur",
-      "addressRegion": "Andhra Pradesh",
-      "postalCode": "515001",
-      "addressCountry": "IN"
-    },
-    "geo": {
-      "@type": "GeoCoordinates",
-      "latitude": 14.681887,
-      "longitude": 77.600591
-    },
-    "openingHoursSpecification": {
-      "@type": "OpeningHoursSpecification",
-      "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
-      "opens": "00:00",
-      "closes": "23:59"
-    },
-    "priceRange": "₹₹",
-    "areaServed": ["Anantapur", "Andhra Pradesh", "Telangana", "Karnataka"]
-  }
+  // LocalBusiness schema is already in global layout.tsx — no duplicate needed here
 
   const faqJsonLd = {
     "@context": "https://schema.org",
@@ -92,7 +65,6 @@ export default function Home() {
 
   return (
     <main className="min-h-screen bg-cream selection:bg-gold selection:text-deep-navy">
-      <StructuredData data={jsonLd} />
       <StructuredData data={faqJsonLd} />
       <Navbar />
       
@@ -152,11 +124,11 @@ export default function Home() {
       <section className="py-24 md:py-32 bg-cream text-deep-navy relative z-20">
         <div className="container mx-auto px-4 md:px-6">
           <AnimatedSection className="text-center mb-16 md:mb-24">
-            <h2 className="text-gold text-sm font-bold tracking-widest uppercase mb-4 flex items-center justify-center gap-4">
+            <p className="text-gold text-sm font-bold tracking-widest uppercase mb-4 flex items-center justify-center gap-4">
               <span className="w-12 h-px bg-gold/50" />
               The Venkata Sai Difference
               <span className="w-12 h-px bg-gold/50" />
-            </h2>
+            </p>
             <h2 className="text-4xl md:text-6xl font-serif font-bold tracking-tight">Why Travel With Us?</h2>
             <p className="mt-6 text-lg text-deep-navy/70 max-w-3xl mx-auto leading-relaxed">
               Venkata Sai Tours &amp; Travels is Anantapur&apos;s most trusted bus rental company — offering 
@@ -192,10 +164,10 @@ export default function Home() {
         <div className="container mx-auto px-4 md:px-6 relative z-10">
           <div className="flex flex-col lg:flex-row justify-between items-end mb-20 gap-8">
             <AnimatedSection direction="left" className="max-w-2xl">
-              <h2 className="text-gold text-sm font-bold tracking-widest uppercase mb-4 flex items-center gap-4">
+              <p className="text-gold text-sm font-bold tracking-widest uppercase mb-4 flex items-center gap-4">
                 <span className="w-12 h-px bg-gold/50" />
                 Our Premium Vehicles
-              </h2>
+              </p>
               <h2 className="text-4xl md:text-6xl font-serif font-bold mb-6">Our Bus Fleet</h2>
               <p className="text-cream/70 text-xl leading-relaxed">
                 From mini bus hire in Anantapur to 50-seat luxury coaches — we have the perfect vehicle for every group size and budget.
@@ -271,10 +243,10 @@ export default function Home() {
             </AnimatedSection>
             
             <AnimatedSection direction="right" className="order-1 lg:order-2">
-              <h2 className="text-gold text-sm font-bold tracking-widest uppercase mb-4 flex items-center gap-4">
+              <p className="text-gold text-sm font-bold tracking-widest uppercase mb-4 flex items-center gap-4">
                 <span className="w-12 h-px bg-gold/50" />
                 Curated Journeys
-              </h2>
+              </p>
               <h2 className="text-4xl md:text-6xl font-serif font-bold mb-8">Tour Packages <br className="hidden md:block"/>from Anantapur</h2>
               <p className="text-xl text-deep-navy/70 mb-12 leading-relaxed">
                 Discover the best of India with our expertly crafted tour packages from Anantapur, AP. We handle the driving while you create memories.

@@ -9,9 +9,12 @@ import { StructuredData } from '@/components/structured-data'
 export const metadata: Metadata = {
   title: 'Contact Us | Book a Bus in Anantapur — Call 9440440969',
   description:
-    'Contact Venkata Sai Tours & Travels for bus booking in Anantapur. Call Y.N. Prasad: 9440440969 or Y.N. Kumar: 9440737138. Located at ING Vysya Bank Lane, Kamala Nagar, Anantapur AP. Available 24/7 near you.',
+    'Book a bus in Anantapur. Call Y.N. Prasad: 9440440969 or Y.N. Kumar: 9440737138. ING Vysya Bank Lane, Kamala Nagar, Anantapur AP 515001. Available 24/7.',
   alternates: {
     canonical: 'https://venkatasaitravels.com/contact',
+  },
+  openGraph: {
+    images: [{ url: '/og/og-contact.png', width: 1200, height: 630, alt: 'Contact Venkata Sai Tours & Travels — Book a Bus in Anantapur' }],
   },
 }
 
