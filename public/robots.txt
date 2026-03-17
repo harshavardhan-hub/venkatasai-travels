@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://venkatasaitours.com
+
+# Sitemaps
+Sitemap: https://venkatasaitours.com/sitemap.xml

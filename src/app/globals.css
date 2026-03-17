@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #F5F0E8; /* Cream base background */
+  --foreground: #0D1B2A; /* Deep Navy for text */
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0D1B2A; /* Deep Navy base for dark mode */
+    --foreground: #F5F0E8; /* Cream for text in dark mode */
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: var(--font-outfit), sans-serif;
+  overflow-x: hidden;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+::selection {
+  background: #C9A84C; /* Gold */
+  color: #0D1B2A; /* Deep Navy */
+}
