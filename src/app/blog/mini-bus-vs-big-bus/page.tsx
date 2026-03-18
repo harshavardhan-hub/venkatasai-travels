@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   description:
     'Mini bus hire or big bus rental in Anantapur — which is right for your group? Expert comparison of seats, price, comfort & use cases. Call Venkata Sai Tours: 9440440969.',
   alternates: {
-    canonical: 'https://venkatasaitravels.com/blog/mini-bus-vs-big-bus',
+    canonical: 'https://www.venkatasaitravels.com/blog/mini-bus-vs-big-bus',
   },
 }
 

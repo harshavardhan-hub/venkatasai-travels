@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   description:
     'Affordable pilgrimage, family, corporate & school tour packages from Anantapur AP. Tirupati, Shirdi, Varanasi & more. Call Now: 9440440969 / 9440737138.',
   alternates: {
-    canonical: 'https://venkatasaitravels.com/tour-packages',
+    canonical: 'https://www.venkatasaitravels.com/tour-packages',
   },
   openGraph: {
     images: [{ url: '/og/og-tour-packages.png', width: 1200, height: 630, alt: 'Tour Packages from Anantapur — Tirupati, Shirdi, Goa & more' }],

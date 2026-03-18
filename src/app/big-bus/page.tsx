@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   description:
     'Hire 40-seat semi-deluxe or 50-seat push-back luxury bus in Anantapur AP. 4K audio-video coach available. Call Now: 9440440969 / 9440737138.',
   alternates: {
-    canonical: 'https://venkatasaitravels.com/big-bus',
+    canonical: 'https://www.venkatasaitravels.com/big-bus',
   },
   openGraph: {
     images: [{ url: '/og/og-big-bus.png', width: 1200, height: 630, alt: '40 & 50-Seat Luxury Bus Hire in Anantapur AP' }],

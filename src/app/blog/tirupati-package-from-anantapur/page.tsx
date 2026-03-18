@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   description:
     'Planning a Tirupati trip from Anantapur? Distance: 180 km, 3-4 hours. Best bus package prices and tips. Call Venkata Sai Tours: 9440440969.',
   alternates: {
-    canonical: 'https://venkatasaitravels.com/blog/tirupati-package-from-anantapur',
+    canonical: 'https://www.venkatasaitravels.com/blog/tirupati-package-from-anantapur',
   },
 }
 

@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   description:
     'Book a bus in Anantapur. Call Y.N. Prasad: 9440440969 or Y.N. Kumar: 9440737138. ING Vysya Bank Lane, Kamala Nagar, Anantapur AP 515001. Available 24/7.',
   alternates: {
-    canonical: 'https://venkatasaitravels.com/contact',
+    canonical: 'https://www.venkatasaitravels.com/contact',
   },
   openGraph: {
     images: [{ url: '/og/og-contact.png', width: 1200, height: 630, alt: 'Contact Venkata Sai Tours & Travels — Book a Bus in Anantapur' }],

@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   description:
     'Hire 14-seat or 18-seat mini bus / tempo traveller in Anantapur AP. Best rates for family trips, picnics & local travel. Call Now: 9440440969 / 9440737138. Instant Booking!',
   alternates: {
-    canonical: 'https://venkatasaitravels.com/mini-bus',
+    canonical: 'https://www.venkatasaitravels.com/mini-bus',
   },
   openGraph: {
     images: [{ url: '/og/og-mini-bus.png', width: 1200, height: 630, alt: 'Mini Bus & Tempo Traveller Hire in Anantapur AP' }],
@@ -203,11 +203,11 @@ export default function MiniBusPage() {
       <section id="tempo" className="py-20 bg-deep-navy text-cream scroll-mt-24">
         <div className="container mx-auto px-4 md:px-6">
           <AnimatedSection className="text-center mb-12">
-            <h2 className="text-gold text-sm font-bold tracking-widest uppercase mb-4 flex items-center justify-center gap-4">
+            <p className="text-gold text-sm font-bold tracking-widest uppercase mb-4 flex items-center justify-center gap-4">
               <span className="w-12 h-px bg-gold/50" />
               Also Available
               <span className="w-12 h-px bg-gold/50" />
-            </h2>
+            </p>
             <h2 className="text-4xl md:text-5xl font-serif font-bold mb-6">
               Tempo Traveller Hire <span className="text-gold">Anantapur</span>
             </h2>

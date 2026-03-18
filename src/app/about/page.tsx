@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   description:
     'Learn about Venkata Sai Tours & Travels — Anantapur\'s most trusted bus company with 24 years of service. Bus rental, mini bus, tempo traveller & luxury coaches in Anantapur AP. Call: 9440440969 / 9440737138.',
   alternates: {
-    canonical: 'https://venkatasaitravels.com/about',
+    canonical: 'https://www.venkatasaitravels.com/about',
   },
   openGraph: {
     images: [{ url: '/og/og-about.png', width: 1200, height: 630, alt: 'About Venkata Sai Tours & Travels — 24 Years in Anantapur AP' }],

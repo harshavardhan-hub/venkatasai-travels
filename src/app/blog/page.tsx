@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   description:
     'Expert bus travel guides for Anantapur, AP. Tirupati package prices, best bus rental guide, mini bus vs big bus comparison. By Venkata Sai Tours & Travels.',
   alternates: {
-    canonical: 'https://venkatasaitravels.com/blog',
+    canonical: 'https://www.venkatasaitravels.com/blog',
   },
 }
 
@@ -43,8 +43,8 @@ export default function BlogPage() {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     "itemListElement": [
-      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://venkatasaitravels.com" },
-      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://venkatasaitravels.com/blog" }
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.venkatasaitravels.com" },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.venkatasaitravels.com/blog" }
     ]
   }
 
