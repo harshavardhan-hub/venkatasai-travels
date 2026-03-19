@@ -41,17 +41,14 @@ export function Navbar() {
     <>
       <header
         className={cn(
-          "fixed inset-x-0 z-50 transition-all duration-300",
+          "fixed inset-x-0 top-0 z-50 transition-all duration-300",
           isScrolled
-            ? "top-2 lg:top-0 py-2 lg:py-3 lg:bg-deep-navy/80 lg:backdrop-blur-md border-b lg:border-white/10 lg:shadow-lg"
-            : "top-0 py-5 bg-transparent border-transparent"
+            ? "lg:py-3 lg:bg-deep-navy/80 lg:backdrop-blur-md lg:border-b lg:border-white/10 lg:shadow-lg py-4"
+            : "py-4 bg-transparent border-transparent"
         )}
       >
         <div className="container mx-auto px-4 md:px-6">
-          <div className={cn(
-            "flex items-center justify-between transition-all duration-300",
-            isScrolled && "max-lg:bg-deep-navy/90 max-lg:backdrop-blur-xl max-lg:rounded-full max-lg:py-2.5 max-lg:px-5 max-lg:shadow-2xl max-lg:border max-lg:border-white/10"
-          )}>
+          <div className="flex items-center justify-between">
             {/* Logo */}
             <Link href="/" className="flex items-center gap-3 group">
               <div className="relative w-12 h-12 overflow-hidden rounded-full ring-2 ring-gold/50 group-hover:ring-gold transition-all">
@@ -59,6 +56,7 @@ export function Navbar() {
                   src="/logo.png"
                   alt="Venkata Sai Tours & Travels Logo"
                   fill
+                  sizes="48px"
                   className="object-cover"
                 />
               </div>

@@ -87,6 +87,7 @@ export default function MediumBusPage() {
             src="/images/medium-hero.jpg"
             alt="30-seat medium bus hire in Anantapur AP — Venkata Sai Tours & Travels"
             fill
+            sizes="100vw"
             className="object-cover opacity-60 mix-blend-luminosity"
             priority
           />
@@ -169,6 +170,7 @@ export default function MediumBusPage() {
                 src="/images/medium-bus-interior.jpg"
                 alt="Interior of 30-seat medium bus rental Anantapur — comfortable push-back seats"
                 fill
+                sizes="(max-width: 768px) 100vw, 50vw"
                 className="object-cover"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-deep-navy/60 to-transparent" />

@@ -104,6 +104,7 @@ export default function MiniBusPage() {
             src="/images/mini-hero.jpg"
             alt="Mini bus hire in Anantapur — Venkata Sai Tours 14 & 18 seat mini bus"
             fill
+            sizes="100vw"
             className="object-cover opacity-60 mix-blend-luminosity"
             priority
           />
@@ -147,8 +148,9 @@ export default function MiniBusPage() {
               <div className="relative w-full aspect-video rounded-2xl overflow-hidden mb-6">
                 <Image
                   src="/images/mini-14.jpg"
-                  alt="14-seat mini bus for hire in Anantapur — Venkata Sai Tours & Travels"
+                  alt="14-seat mini bus for hire in Anantapur — Venkata Sai Tours &amp; Travels"
                   fill
+                  sizes="(max-width: 768px) 100vw, 50vw"
                   className="object-cover"
                 />
               </div>
@@ -176,6 +178,7 @@ export default function MiniBusPage() {
                   src="/images/mini-18.jpg"
                   alt="18-seat mini bus rental Anantapur AP — Venkata Sai Tours"
                   fill
+                  sizes="(max-width: 768px) 100vw, 50vw"
                   className="object-cover"
                 />
               </div>

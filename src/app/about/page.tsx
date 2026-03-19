@@ -52,6 +52,7 @@ export default function AboutPage() {
             src="/images/about-hero.jpg"
             alt="Venkata Sai Tours & Travels bus fleet — Anantapur AP's most trusted bus company"
             fill
+            sizes="100vw"
             className="object-cover opacity-50 mix-blend-luminosity"
             priority
           />
@@ -181,7 +182,7 @@ export default function AboutPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
             <AnimatedSection direction="up" delay={0.1} className="flex flex-col items-center bg-cream p-10 rounded-3xl text-center border border-black/5">
               <div className="w-32 h-32 rounded-full overflow-hidden border-4 border-gold shadow-xl mb-6 relative">
-                <Image src="/prasad.png" alt="Y.N. Prasad — Managing Partner, Venkata Sai Tours & Travels Anantapur" fill className="object-cover" />
+                <Image src="/prasad.png" alt="Y.N. Prasad — Managing Partner, Venkata Sai Tours & Travels Anantapur" fill sizes="128px" className="object-cover" />
               </div>
               <h3 className="text-3xl font-serif font-bold mb-2">Y.N. Prasad</h3>
               <p className="text-gold font-bold tracking-widest uppercase text-sm mb-2">Managing Partner</p>
@@ -193,7 +194,7 @@ export default function AboutPage() {
 
             <AnimatedSection direction="up" delay={0.2} className="flex flex-col items-center bg-cream p-10 rounded-3xl text-center border border-black/5">
               <div className="w-32 h-32 rounded-full overflow-hidden border-4 border-gold shadow-xl mb-6 relative">
-                <Image src="/kumar.png" alt="Y.N. Kumar — Founding Partner, Venkata Sai Tours & Travels Anantapur" fill className="object-cover" />
+                <Image src="/kumar.png" alt="Y.N. Kumar — Founding Partner, Venkata Sai Tours & Travels Anantapur" fill sizes="128px" className="object-cover" />
               </div>
               <h3 className="text-3xl font-serif font-bold mb-2">Y.N. Kumar</h3>
               <p className="text-gold font-bold tracking-widest uppercase text-sm mb-2">Founding Partner</p>

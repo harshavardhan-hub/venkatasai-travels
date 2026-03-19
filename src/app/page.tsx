@@ -69,52 +69,55 @@ export default function Home() {
       <Navbar />
       
       {/* HERO SECTION */}
-      <section className="relative h-[100svh] min-h-[600px] w-full overflow-hidden flex items-center justify-center">
+      <section className="relative h-[100svh] min-h-[580px] w-full overflow-hidden flex items-center justify-center">
         <div className="absolute inset-0 z-0 bg-deep-navy">
           <Image
             src="/images/hero-bus.jpg"
             alt="Bus booking Anantapur — Venkata Sai Tours & Travels luxury fleet"
             fill
+            sizes="100vw"
             className="object-cover opacity-50 mix-blend-luminosity"
             priority
           />
           <div className="absolute inset-0 bg-gradient-to-t from-deep-navy via-deep-navy/40 to-deep-navy/80" />
         </div>
         
-        <div className="relative z-10 container mx-auto px-4 md:px-6 flex flex-col items-center text-center pt-20">
+        <div className="relative z-10 container mx-auto px-4 md:px-6 flex flex-col items-center text-center pt-16 sm:pt-20">
           <AnimatedSection playOnLoad direction="down" delay={0.2} className="w-fit">
-            <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-gold/50 bg-white/5 backdrop-blur-md mb-8 shadow-lg">
-              <Star className="w-4 h-4 text-gold fill-gold" />
-              <span className="text-cream text-xs md:text-sm font-medium tracking-widest uppercase">
+            <div className="inline-flex items-center gap-2 px-3 py-1 sm:px-4 sm:py-1.5 rounded-full border border-gold/50 bg-white/5 backdrop-blur-md mb-4 sm:mb-8 shadow-lg">
+              <Star className="w-3.5 h-3.5 sm:w-4 sm:h-4 text-gold fill-gold" />
+              <span className="text-cream text-xs font-medium tracking-widest uppercase">
                 Anantapur&apos;s #1 Bus Booking Service
               </span>
             </div>
           </AnimatedSection>
           
           <AnimatedSection playOnLoad delay={0.4} className="max-w-5xl">
-            <h1 className="text-5xl md:text-7xl lg:text-[6rem] font-serif font-bold text-cream leading-[1.1] mb-6 drop-shadow-2xl">
+            <h1 className="text-4xl sm:text-5xl md:text-7xl lg:text-[6rem] font-serif font-bold text-cream leading-[1.1] mb-3 sm:mb-6 drop-shadow-2xl">
               Venkata Sai <br/>
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-gold via-saffron to-gold">Tours & Travels</span>
             </h1>
-            <p className="text-lg md:text-2xl text-cream/90 font-light mb-4 max-w-2xl mx-auto drop-shadow-md">
+            <p className="text-base sm:text-lg md:text-2xl text-cream/90 font-light mb-2 sm:mb-4 max-w-2xl mx-auto drop-shadow-md">
               Bus Booking in Anantapur, Andhra Pradesh.
             </p>
-            <p className="text-base md:text-lg text-cream/70 font-light mb-12 max-w-2xl mx-auto drop-shadow-md">
+            <p className="text-sm sm:text-base md:text-lg text-cream/70 font-light mb-5 sm:mb-12 max-w-2xl mx-auto drop-shadow-md">
               Mini bus hire · Tempo traveller · Medium bus · 50-seat luxury coach. 24/7 service across AP, Telangana & beyond.
             </p>
           </AnimatedSection>
           
           <AnimatedSection playOnLoad direction="up" delay={0.6} className="w-fit">
-            <div className="flex flex-col sm:flex-row flex-wrap justify-center items-center gap-5">
-              <Button size="lg" href="#fleet" className="text-lg px-8 py-6 h-auto" variant="gold">
+            <div className="flex flex-col sm:flex-row flex-wrap justify-center items-center gap-3 sm:gap-5">
+              <Button size="lg" href="#fleet" className="text-base sm:text-lg px-6 sm:px-8 py-4 sm:py-6 h-auto w-full sm:w-auto" variant="gold">
                 Explore Our Fleet
               </Button>
-              <Button size="lg" variant="outline" href="tel:+919440440969" className="text-lg px-8 py-6 h-auto bg-deep-navy/30 backdrop-blur-md border-cream/20 text-cream hover:border-gold hover:text-gold hover:bg-white/10">
-                <Phone className="mr-3 w-5 h-5"/> Y.N. Prasad: 9440440969
-              </Button>
-              <Button size="lg" variant="outline" href="tel:+919440737138" className="text-lg px-8 py-6 h-auto bg-deep-navy/30 backdrop-blur-md border-cream/20 text-cream hover:border-gold hover:text-gold hover:bg-white/10">
-                <Phone className="mr-3 w-5 h-5"/> Y.N. Kumar: 9440737138
-              </Button>
+              <div className="flex flex-row gap-3 w-full sm:w-auto">
+                <Button size="lg" variant="outline" href="tel:+919440440969" className="text-sm sm:text-lg px-4 sm:px-8 py-4 sm:py-6 h-auto flex-1 sm:flex-none bg-deep-navy/30 backdrop-blur-md border-cream/20 text-cream hover:border-gold hover:text-gold hover:bg-white/10">
+                  <Phone className="mr-2 w-4 h-4 sm:w-5 sm:h-5"/> 9440440969
+                </Button>
+                <Button size="lg" variant="outline" href="tel:+919440737138" className="text-sm sm:text-lg px-4 sm:px-8 py-4 sm:py-6 h-auto flex-1 sm:flex-none bg-deep-navy/30 backdrop-blur-md border-cream/20 text-cream hover:border-gold hover:text-gold hover:bg-white/10">
+                  <Phone className="mr-2 w-4 h-4 sm:w-5 sm:h-5"/> 9440737138
+                </Button>
+              </div>
             </div>
           </AnimatedSection>
         </div>
@@ -226,7 +229,7 @@ export default function Home() {
               <div className="relative aspect-[4/5] w-full max-w-lg mx-auto lg:mx-0 lg:ml-auto">
                 <div className="absolute inset-0 border border-gold/30 rounded-[3rem] translate-x-6 translate-y-6" />
                 <div className="absolute inset-0 rounded-[3rem] overflow-hidden shadow-2xl">
-                  <Image src="/images/tour-collage.jpg" alt="Tour packages from Anantapur — Tirupati, Shirdi, Goa & more" fill className="object-cover" />
+                  <Image src="/images/tour-collage.jpg" alt="Tour packages from Anantapur — Tirupati, Shirdi, Goa & more" fill sizes="(max-width: 1024px) 100vw, 50vw" className="object-cover" />
                   <div className="absolute inset-0 bg-gradient-to-t from-deep-navy/60 to-transparent" />
                 </div>
                 

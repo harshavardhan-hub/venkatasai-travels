@@ -87,6 +87,7 @@ export default function BigBusPage() {
             src="/images/big-hero.jpg"
             alt="40 and 50 seat luxury bus hire in Anantapur AP — Venkata Sai Tours"
             fill
+            sizes="100vw"
             className="object-cover opacity-50 mix-blend-luminosity"
             priority
           />
@@ -201,6 +202,7 @@ export default function BigBusPage() {
                 src="/images/large-group.jpg"
                 alt="Large group bus travel from Anantapur — Venkata Sai Tours 50-seat luxury coach"
                 fill
+                sizes="(max-width: 1024px) 100vw, 50vw"
                 className="object-cover"
               />
               <div className="absolute inset-0 bg-gold/10 mix-blend-multiply" />

@@ -18,7 +18,7 @@ export function TourCard({ title, duration, location, description, image, catego
   return (
     <AnimatedSection delay={delay} className="group relative flex flex-col h-full overflow-hidden rounded-2xl bg-deep-navy border border-white/10 transition-all duration-500 hover:-translate-y-2 hover:shadow-[0_20px_40px_-15px_rgba(201,168,76,0.25)] hover:border-gold/30">
       <div className="relative aspect-[4/3] w-full overflow-hidden">
-        <Image src={image} alt={title} fill className="object-cover transition-transform duration-700 group-hover:scale-110" />
+        <Image src={image} alt={title} fill sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" className="object-cover transition-transform duration-700 group-hover:scale-110" />
         <div className="absolute inset-0 bg-gradient-to-t from-deep-navy via-deep-navy/40 to-black/20" />
         <div className="absolute top-4 left-4 z-10">
           <Badge variant="secondary" className="shadow-lg backdrop-blur-md bg-saffron/90 text-deep-navy">{category}</Badge>

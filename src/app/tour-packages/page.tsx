@@ -96,6 +96,7 @@ export default function TourPackagesPage() {
             src="/images/tour-hero.jpg"
             alt="Tour packages from Anantapur AP — Tirupati, Shirdi, Goa, Vizag tours"
             fill
+            sizes="100vw"
             className="object-cover opacity-60 mix-blend-luminosity"
             priority
           />

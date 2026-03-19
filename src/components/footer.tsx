@@ -15,6 +15,7 @@ export function Footer() {
                   src="/logo.png"
                   alt="Venkata Sai Tours & Travels Logo"
                   fill
+                  sizes="64px"
                   className="object-cover"
                 />
               </div>

@@ -18,7 +18,7 @@ export function BusCard({ name, seats, description, image, href, delay = 0 }: Bu
   return (
     <AnimatedSection delay={delay} className="group flex flex-col h-full overflow-hidden rounded-2xl bg-white/5 border border-white/10 hover:border-gold/50 hover:shadow-[0_0_30px_rgba(201,168,76,0.15)] transition-all duration-500">
       <div className="relative aspect-[16/10] w-full overflow-hidden">
-        <Image src={image} alt={name} fill className="object-cover transition-transform duration-700 group-hover:scale-110" />
+        <Image src={image} alt={name} fill sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" className="object-cover transition-transform duration-700 group-hover:scale-110" />
         <div className="absolute inset-0 bg-gradient-to-t from-deep-navy via-deep-navy/20 to-transparent opacity-80" />
         <div className="absolute top-4 right-4 z-10">
           <Badge variant="gold" className="shadow-lg">{seats} Seats</Badge>
