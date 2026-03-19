@@ -18,7 +18,7 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://www.venkatasaitravels.com"),
+  metadataBase: new URL("https://www.venkatasaitravels.com/"),
   title: {
     default: "Venkata Sai Tours & Travels | Bus Booking in Anantapur AP",
     template: "%s | Venkata Sai Tours & Travels",
@@ -79,7 +79,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_IN",
-    url: "https://www.venkatasaitravels.com",
+    url: "https://www.venkatasaitravels.com/",
     siteName: "Venkata Sai Tours & Travels",
     title: "Venkata Sai Tours & Travels | Bus Booking in Anantapur AP",
     description:
@@ -103,21 +103,15 @@ export const metadata: Metadata = {
   },
   icons: {
     icon: [
-      { url: "/favicon.png", type: "image/png", sizes: "192x192" },
-      { url: "/favicon.png", type: "image/png", sizes: "96x96" },
-      { url: "/favicon.png", type: "image/png", sizes: "48x48" },
-      { url: "/favicon.png", type: "image/png", sizes: "32x32" },
-      { url: "/favicon.png", type: "image/png", sizes: "16x16" },
+      { url: "/favicon.ico", sizes: "any" },
+      { url: "/favicon-16.png", type: "image/png", sizes: "16x16" },
+      { url: "/favicon-32.png", type: "image/png", sizes: "32x32" },
+      { url: "/favicon-48.png", type: "image/png", sizes: "48x48" },
+      { url: "/favicon-96.png", type: "image/png", sizes: "96x96" },
+      { url: "/favicon-192.png", type: "image/png", sizes: "192x192" },
     ],
-    shortcut: [{ url: "/favicon.png", type: "image/png" }],
-    apple: [{ url: "/favicon.png", sizes: "180x180", type: "image/png" }],
-    other: [
-      {
-        rel: "icon",
-        url: "/favicon.png",
-        type: "image/png",
-      },
-    ],
+    shortcut: [{ url: "/favicon.ico" }],
+    apple: [{ url: "/apple-touch-icon.png", sizes: "180x180", type: "image/png" }],
   },
   // ⬇️ PASTE your Google Search Console verification code below (from HTML tag method)
   // verification: { google: "PASTE_YOUR_CODE_HERE" },
