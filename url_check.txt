@@ -1,0 +1,12 @@
+https://www.venkatasaitravels.com : 200
+https://www.venkatasaitravels.com/about : 200
+https://www.venkatasaitravels.com/contact : 200
+https://www.venkatasaitravels.com/blog : 200
+https://www.venkatasaitravels.com/mini-bus : 200
+https://www.venkatasaitravels.com/big-bus : 200
+https://www.venkatasaitravels.com/medium-bus : 200
+https://www.venkatasaitravels.com/tour-packages : 200
+https://www.venkatasaitravels.com/blog/best-bus-rental-in-anantapur : 404
+https://www.venkatasaitravels.com/blog/mini-bus-vs-big-bus : 200
+https://www.venkatasaitravels.com/blog/best-bus-rental-anantapur : 200
+

@@ -207,8 +207,8 @@ export default function MiniBusVsBigBusBlog() {
             <h3 className="text-3xl font-serif font-bold mb-4">Still Not Sure? Call Us — We&apos;ll Help You Choose</h3>
             <p className="text-cream/70 mb-6">Our team will recommend the perfect bus for your group from Anantapur. Available 24/7.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button href="/contact" variant="gold" size="lg" className="text-lg px-8 py-5 h-auto">
-                <Phone className="mr-3 w-5 h-5"/> Book Now — 9440440969 / 9440737138
+              <Button href="tel:+919440440969" variant="gold" size="lg" className="text-lg px-8 py-5 h-auto">
+                <Phone className="mr-3 w-5 h-5"/> Y.N. Prasad: 9440440969
               </Button>
               <Button href="tel:+919440737138" variant="outline" size="lg" className="text-lg px-8 py-5 h-auto border-cream/30 text-cream hover:bg-gold hover:text-deep-navy hover:border-gold">
                 <Phone className="mr-3 w-5 h-5"/> Y.N. Kumar: 9440737138

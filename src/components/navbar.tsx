@@ -15,6 +15,7 @@ const NAV_LINKS = [
   { name: "Medium Bus", path: "/medium-bus" },
   { name: "Big Bus", path: "/big-bus" },
   { name: "Tour Packages", path: "/tour-packages" },
+  { name: "Blogs", path: "/blog" },
   { name: "About", path: "/about" },
   { name: "Contact", path: "/contact" },
 ];
