@@ -8,7 +8,7 @@ import { Button } from '@/components/ui/button'
 import { StructuredData } from '@/components/structured-data'
 
 export const metadata: Metadata = {
-  title: 'Best Bus Rental in Anantapur — Complete Guide 2024',
+  title: 'Best Bus Rental in Anantapur — Complete Guide 2026',
   description:
     'Complete guide to bus rental in Anantapur AP. Compare mini bus, tempo traveller, medium bus & luxury coach hire options, pricing, and tips. Call Venkata Sai Tours: 9440440969.',
   alternates: {
@@ -20,7 +20,7 @@ export default function BestBusRentalBlog() {
   const articleJsonLd = {
     "@context": "https://schema.org",
     "@type": "Article",
-    "headline": "Best Bus Rental in Anantapur — Complete Guide 2024",
+    "headline": "Best Bus Rental in Anantapur — Complete Guide 2026",
     "description": "Complete guide to bus rental in Anantapur AP covering all vehicle options, pricing tips, and how to choose the right bus for your group.",
     "author": { "@type": "Organization", "name": "Venkata Sai Tours & Travels" },
     "publisher": {
@@ -28,8 +28,8 @@ export default function BestBusRentalBlog() {
       "name": "Venkata Sai Tours & Travels",
       "logo": { "@type": "ImageObject", "url": "https://www.venkatasaitravels.com/logo.png" }
     },
-    "datePublished": "2024-03-01",
-    "dateModified": "2024-03-17",
+    "datePublished": "2026-03-01",
+    "dateModified": "2026-03-17",
     "mainEntityOfPage": "https://www.venkatasaitravels.com/blog/best-bus-rental-anantapur"
   }
 
@@ -85,10 +85,10 @@ export default function BestBusRentalBlog() {
             </nav>
             <div className="flex items-center gap-3 mb-6">
               <span className="text-xs font-bold text-gold uppercase tracking-widest bg-gold/10 px-3 py-1 rounded-full">Bus Rental</span>
-              <span className="text-xs text-cream/40">March 2024 · 8 min read</span>
+              <span className="text-xs text-cream/40">March 2026 · 8 min read</span>
             </div>
             <h1 className="text-4xl md:text-6xl font-serif font-bold text-cream mb-6 leading-tight">
-              Best Bus Rental in <span className="text-gold">Anantapur</span> — Complete Guide 2024
+              Best Bus Rental in <span className="text-gold">Anantapur</span> — Complete Guide 2026
             </h1>
             <p className="text-lg md:text-xl text-cream/80 leading-relaxed">
               Everything you need to know to hire the perfect bus in Anantapur, Andhra Pradesh — from choosing the right vehicle to getting the best price.

@@ -57,7 +57,7 @@ export default function TirupatiPackageBlog() {
             </nav>
             <div className="flex items-center gap-3 mb-6">
               <span className="text-xs font-bold text-gold uppercase tracking-widest bg-gold/10 px-3 py-1 rounded-full">Tour Packages</span>
-              <span className="text-xs text-cream/40">March 2024 · 8 min read</span>
+              <span className="text-xs text-cream/40">March 2026 · 8 min read</span>
             </div>
             <h1 className="text-4xl md:text-6xl font-serif font-bold text-cream mb-6 leading-tight">
               Tirupati Package from <span className="text-gold">Anantapur</span> — Price, Distance & Tips
@@ -100,7 +100,7 @@ export default function TirupatiPackageBlog() {
           </AnimatedSection>
 
           <AnimatedSection>
-            <h2 className="text-3xl font-serif font-bold text-deep-navy mb-4">Tirupati Package Prices from Anantapur (2024)</h2>
+            <h2 className="text-3xl font-serif font-bold text-deep-navy mb-4">Tirupati Package Prices from Anantapur (2026)</h2>
             <p className="text-deep-navy/80 leading-relaxed mb-4">
               The <strong>Tirupati package price from Anantapur</strong> depends on group size, bus type, and whether you want accommodation. Here is a typical overview:
             </p>

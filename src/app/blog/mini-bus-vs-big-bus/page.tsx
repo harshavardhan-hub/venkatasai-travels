@@ -68,7 +68,7 @@ export default function MiniBusVsBigBusBlog() {
             </nav>
             <div className="flex items-center gap-3 mb-6">
               <span className="text-xs font-bold text-gold uppercase tracking-widest bg-gold/10 px-3 py-1 rounded-full">Travel Tips</span>
-              <span className="text-xs text-cream/40">March 2024 · 7 min read</span>
+              <span className="text-xs text-cream/40">March 2026 · 7 min read</span>
             </div>
             <h1 className="text-4xl md:text-6xl font-serif font-bold text-cream mb-6 leading-tight">
               Mini Bus vs Big Bus: <span className="text-gold">Which is Best</span> for Your Group?
